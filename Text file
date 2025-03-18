@@ -1,0 +1,10 @@
+GitHub is a web-based platform used primarily for version control and collaboration in software development. It allows multiple developers to work on the same project, track changes, and manage different versions of their code. GitHub is built on Git, a version control system created by Linus Torvalds (the creator of Linux), which helps developers keep track of code changes over time.
+
+Some key features of GitHub include:
+
+Version Control: It helps developers manage and track changes to code over time, allowing them to revert to previous versions when needed.
+Collaboration: Developers can work together on projects, submit changes (called pull requests), and review each other’s work.
+Repositories: A repository (repo) is where project files, code, and their version histories are stored. GitHub allows both public (open-source) and private repositories.
+Issues and Project Management: GitHub includes tools for tracking bugs, enhancements, and tasks with "Issues" and organizing work with "Projects" and "Boards."
+GitHub Pages: Developers can host static websites directly from their repositories.
+Integrations and Actions: GitHub offers many integrations with other tools, and GitHub Actions allow developers to automate workflows, like testing and deploying code.
