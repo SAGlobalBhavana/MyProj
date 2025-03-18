@@ -28,7 +28,12 @@ namespace HybridFramework.TestSuites
         [TestMethod]
         public void CreateSalesOrder()
         {
-            // Navigate to Sales Order 
+          IWebDriver driver = new ChromeDriver();
+              driver.Navigate().GoToUrl("https://www.goibibo.com/flights/");
+              driver.Manage().Window.Maximize();
+              driver.FindElement(By.XPath("//span[@class=\"logSprite icClose\"]")).Click();
+              driver.FindElement(By.XPath("//p[@class='sc-jlwm9r-1 ewETUe']")).Click();
+                        // Navigate to Sales Order 
             arpage.NavigateToAllSalesOrderPage();
             // Create SO 
             demo.SalesOrderCreation(fO_Reusable);
